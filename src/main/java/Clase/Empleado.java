@@ -6,10 +6,13 @@ public class Empleado {
     private String nombre;
     private String dni;
     
+    private double sBase;
     
-	public Empleado(String nombre, String dni) {
+    
+	public Empleado(String nombre, String dni, double sBase) {
 		this.nombre = nombre;
 		this.dni = dni;
+		this.sBase = sBase;
 	}
      //Metodos para acceder a los datos
 	public String getNombre() {
@@ -26,6 +29,15 @@ public class Empleado {
 
 	public void setDni(String dni) {
 		this.dni = dni;
+	}
+	
+	
+	
+	public double getsBase() {
+		return sBase;
+	}//Metodo
+	public double calcularSalario() {
+		return sBase;
 	}
 	
 	//metodo para mostrar Informacion
