@@ -10,7 +10,7 @@ public class Programador extends Empleado{
     //Polimosfismo 
 	@Override
 	public double calcularSalario() {		
-		return super.calcularSalario()*(horExtras*20);
+		return super.calcularSalario()+(horExtras*20);
 	}
     
 	

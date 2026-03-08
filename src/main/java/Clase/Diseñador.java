@@ -11,7 +11,7 @@ public class Diseñador extends Empleado {
 	 
 	@Override
 	public double calcularSalario() {
-		return super.calcularSalario()*(proyectos*50);
+		return super.calcularSalario()+(proyectos*50);
 	}
 	
 	
